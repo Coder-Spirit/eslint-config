@@ -1,6 +1,6 @@
 {
   "name": "@coderspirit/eslint-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Super-Strict ESLint configuration",
   "private": false,
   "main": "eslint-config.cjs",
