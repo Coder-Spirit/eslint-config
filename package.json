@@ -1,6 +1,6 @@
 {
   "name": "@coderspirit/eslint-config",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Super-Strict ESLint configuration",
   "private": false,
   "main": "eslint-config.cjs",
@@ -39,7 +39,8 @@
   "files": [
     ".editorconfig",
     ".prettierrc.mjs",
-    "eslint-config.cjs"
+    "eslint-config.cjs",
+    "tsconfig.json"
   ],
   "repository": {
     "type": "git",
