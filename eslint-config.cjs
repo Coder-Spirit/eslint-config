@@ -20,6 +20,7 @@ module.exports = {
 		// Base ESLint rules
 		'curly': 'error',
 		'sort-imports': 'error',
+		quotes: ['error', 'single', { avoidEscape: true }],
 
 		// TypeScript-related rules
 		'@typescript-eslint/consistent-type-exports': 'error',
