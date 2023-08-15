@@ -2,7 +2,6 @@ module.exports = {
 	plugins: [
 		'@typescript-eslint',
 		'import',
-		'prettier',
 		'sonarjs',
 		'unicorn',
 	],
@@ -12,9 +11,9 @@ module.exports = {
 		'plugin:@typescript-eslint/stylistic-type-checked',
 		'plugin:import/recommended',
 		'plugin:import/typescript',
-		"plugin:sonarjs/recommended",
+		'plugin:prettier/recommended',
+		'plugin:sonarjs/recommended',
 		'plugin:unicorn/recommended',
-		'prettier',
 	],
 	rules: {
 		// Base ESLint rules
