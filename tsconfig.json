@@ -1,19 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es2020",
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
-
-		"module": "ES2022",
-    "moduleResolution": "Bundler",
-
-    "baseUrl": ".",
-
     "resolveJsonModule": true,
-
     "allowJs": true,
     "checkJs": true,
-
-		"noEmit": true,
 
     /* Interop Constraints */
     "isolatedModules": true,
@@ -39,9 +28,5 @@
     "noPropertyAccessFromIndexSignature": true,
 
     "skipLibCheck": true
-  },
-	"exclude": [
-		".github/**/*",
-		"node_modules/**/*",
-	],
+  }
 }
