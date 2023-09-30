@@ -1,6 +1,6 @@
 {
   "name": "@coderspirit/eslint-config",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "Super-Strict ESLint configuration",
   "private": false,
   "main": "eslint-config.cjs",
@@ -16,22 +16,22 @@
   "author": "Andres Correa Casablanca <castarco@coderspirit.xyz>",
   "license": "MIT",
   "devDependencies": {
-    "@types/eslint": "^8.44.2",
-    "@types/node": "^20.5.0",
-    "eslint": "^8.47.0",
-    "prettier": "^3.0.1",
-    "typescript": "^5.1.6"
+    "@types/eslint": "^8.44.3",
+    "@types/node": "^20.8.0",
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
   },
   "peerDependencies": {
-    "eslint": "^8.47.0",
-    "prettier": "^3.0.1",
-    "typescript": "^5.1.6"
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.4.0",
-    "@typescript-eslint/parser": "^6.4.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-import": "^2.28.0",
+    "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-sonarjs": "^0.20.0",
     "eslint-plugin-unicorn": "^48.0.1"
