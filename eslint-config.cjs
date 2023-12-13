@@ -39,10 +39,11 @@ module.exports = {
 		"no-shadow": "off", // replaced by @typescript-eslint/no-shadow
 		"@typescript-eslint/no-shadow": "error",
 		"no-return-await": "off", // replaced by @typescript-eslint/return-await
-		"@typescript-eslint/return-await": "error",
+		"@typescript-eslint/return-await": "always",
 
 		// Unicorn Rules
 		'unicorn/filename-case': 'off',
 		'unicorn/prevent-abbreviations': 'off',
+		'unicorn/no-await-expression-member': 'off',
 	},
 }
